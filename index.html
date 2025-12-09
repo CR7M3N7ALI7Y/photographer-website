@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Арина Шевцова | Профессиональный фотограф</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Иконки сайта -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#home" class="logo">
+                    <span class="logo-name">Арина Шевцова</span>
+                    <span class="logo-profession">Фотограф</span>
+                </a>
+
+                <!-- Навигация для десктопа -->
+                <nav class="nav-desktop">
+                    <a href="#home">Главная</a>
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#contacts">Контакты</a>
+                </nav>
+
+                <!-- Гамбургер меню -->
+                <button class="menu-toggle" aria-label="Открыть меню">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </button>
+            </div>
+
+            <!-- Мобильное меню -->
+            <nav class="nav-mobile">
+                <a href="#home"><i class="fas fa-home"></i>Главная</a>
+                <a href="#portfolio"><i class="fas fa-images"></i>Портфолио</a>
+                <a href="#services"><i class="fas fa-camera"></i>Услуги</a>
+                <a href="#contacts"><i class="fas fa-envelope"></i>Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Приветственный блок -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Профессиональная фотосъёмка</h1>
+                <p class="hero-subtitle">Ловлю моменты, создаю воспоминания</p>
+                <a href="#contacts" class="btn-hero">
+                    <span>Связаться со мной</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- Раздел Портфолио -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Мои работы</h2>
+                    <p class="section-subtitle">Лучшие кадры из последних проектов</p>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/свадебная фотосессия.jpg"
+                                alt="Свадебная съёмка">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Свадебная съёмка</h3>
+                            <p>Эмоции самого важного дня</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/портрет.jpg"
+                                alt="Портрет">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Портретная съёмка</h3>
+                            <p>Индивидуальность в кадре</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/семейной фото.jpg"
+                                alt="Семейная фотосессия">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Семейная фотосессия</h3>
+                            <p>Тепло семейных отношений</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/пейзаж.jpg"
+                                alt="Пейзаж">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Пейзажная фотография</h3>
+                            <p>Красота окружающего мира</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/архитектура.jpg"
+                                alt="Архитектура">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Архитектурная съёмка</h3>
+                            <p>Гармония линий и форм</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/репортаж.jpg"
+                                alt="Репортаж">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Репортажная съёмка</h3>
+                            <p>Живые моменты событий</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел Услуги -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Услуги и цены</h2>
+                    <p class="section-subtitle">Профессиональные фотосессии для разных случаев</p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-ring"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Свадебная съёмка</h3>
+                            <p>Полный день свадьбы: подготовка, церемония, банкет. Более 500 обработанных фото, печать
+                                альбома премиум-класса.</p>
+                            <div class="service-details">
+                                <div class="service-price">от 35 000 ₽</div>
+                                <div class="service-duration"><i class="far fa-clock"></i> 8-10 часов</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Портретная съёмка</h3>
+                            <p>Индивидуальная или парная портретная сессия в студии или на природе. 70+ обработанных
+                                фото, ретушь.</p>
+                            <div class="service-details">
+                                <div class="service-price">от 9 500 ₽</div>
+                                <div class="service-duration"><i class="far fa-clock"></i> 2-3 часа</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Семейная фотосессия</h3>
+                            <p>Съёмка для всей семьи в уютной атмосфере. 100+ обработанных фото, семейный альбом в
+                                подарок.</p>
+                            <div class="service-details">
+                                <div class="service-price">от 15 000 ₽</div>
+                                <div class="service-duration"><i class="far fa-clock"></i> 3-4 часа</div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел Контакты -->
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Связаться со мной</h2>
+                    <p class="section-subtitle">Готовы создать что-то прекрасное вместе?</p>
+                </div>
+
+                <div class="contacts-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h3><i class="fas fa-map-marker-alt"></i>Адрес студии</h3>
+                            <p>г. Москва, ул. Творческая, д. 10</p>
+                            <p class="contact-note">Предварительная запись обязательна</p>
+                        </div>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <p class="contact-label">Телефон</p>
+                                    <p class="contact-value">+7 (495) 123-45-67</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <p class="contact-label">Email</p>
+                                    <p class="contact-value">photo@arinashevtsova.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fab fa-telegram"></i>
+                                <div>
+                                    <p class="contact-label">Telegram</p>
+                                    <p class="contact-value">@photo_arina</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h4>Социальные сети</h4>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon" aria-label="ВКонтакте">
+                                    <i class="fab fa-vk"></i>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="Telegram">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="Pinterest">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Напишите мне</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" name="name" placeholder="Арина Шевцова" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="arina@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Сообщение</label>
+                                <textarea id="message" name="message" placeholder="Расскажите о вашем проекте..."
+                                    rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">
+                                <span>Отправить сообщение</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <span class="logo-name">Арина Шевцова</span>
+                        <span class="logo-profession">Фотограф</span>
+                    </div>
+                    <p class="footer-copyright">
+                        © 2025 Арина Шевцова. Все права защищены.<br>
+                        Профессиональная фотосъёмка в Москве и области
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#home">Главная</a>
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="#" class="footer-social-icon" aria-label="ВКонтакте">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                    <a href="#" class="footer-social-icon" aria-label="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="#header" class="back-to-top" aria-label="Наверх">
+                        <i class="fas fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
